@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.first-row {
+  background: #D7E8D4;
+  flex: 1;
+}
+.inner-row {
+  display: flex;
+  flex-direction: row;
+}
+.inner-col {
+  flex: 2;
+}
+
+.inner-row aside {
+  background: lightgray;
+  flex: 1;
+}
+header, footer {
+  background: lightblue;
+ 
+}
+header, footer, article, nav, aside {
+  padding: 1em;
+  overflow-y: auto
+}
+ 
