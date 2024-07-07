@@ -132,5 +132,19 @@ main h1 {
     
 }
 
+.tutorial{
+    background-color: var(--white);
+    color: var(--black);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
 
-/*---------------------------------------
+}
+.fa-solid fa-star {
+    display:flex;
+    align-items: start
+    ;
+   
+}
+
+
