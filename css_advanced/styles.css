@@ -23,9 +23,9 @@ html {
     box-shadow: inset 0 0 0 1000px rgba(47, 24, 147, 0.6);
 }  
 header {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-bottom: 6em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 3em;
     
 }
 
@@ -40,6 +40,7 @@ header {
 .imageContainer{
     display: flex;
     justify-content: start;
+   
 
 }
 
@@ -84,27 +85,44 @@ main section{
 }
 
 
-main section div {
+.container-1 {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-main section button {
+.button {
     border:none;
     background: var(--pink);
     color: var(--white);
     padding: 10px 25px 10px 25px;
 }
 
-main section div h1 {
+main h1 {
     margin-bottom: 1em;
 }
 
 .item {
     align-items: center;
-    display:contents;
+    display:block;
     justify-content: space-between;
     justify-items: baseline;
 }
+
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-items:baseline;
+    justify-content: flex-start;
+}
+
+.instructor-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2%;
+}
+
+
+/*---------------------------------------
