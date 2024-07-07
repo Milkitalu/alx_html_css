@@ -39,14 +39,17 @@ header {
 
 .imageContainer{
     display: flex;
+    justify-content: start;
 
 }
 
 .navLinkContainer {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 70%;
+   
+    justify-content: space-around;
+    align-items:end;
+    justify-items: flex-end;
+    width: 50%;
     margin: auto;
 }
 
@@ -64,15 +67,44 @@ header {
     cursor: pointer;
 }
 
+
 /*---------------------------Container Styles-----------------------------------------------------------------------*/
 
 main {
     margin: auto;
     text-align: center;
     width: 100%;
+    color: var(--white);
+}
+
+
+main section{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+main section div {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+main section button {
+    border:none;
+    background: var(--pink);
     color: var(--white);
+    padding: 10px 25px 10px 25px;
+}
+
+main section div h1 {
+    margin-bottom: 1em;
+}
+
+.item {
+    align-items: center;
+    display:contents;
+    justify-content: space-between;
+    justify-items: baseline;
 }
