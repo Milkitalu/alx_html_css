@@ -147,4 +147,9 @@ main h1 {
    
 }
 
-
+.container-3 {
+    background-color: var(--white);
+    color: var(--black);
+    display: flex;
+    flex-direction: row;
+}
