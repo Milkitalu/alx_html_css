@@ -124,5 +124,13 @@ main h1 {
     border-radius: 2%;
 }
 
+.quotes-1 {
+    background-color: var(--pink);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
 
 /*---------------------------------------
