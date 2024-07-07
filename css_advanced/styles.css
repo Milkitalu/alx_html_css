@@ -148,8 +148,8 @@ main h1 {
 }
 
 .container-3 {
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--black);
+    color: var(--white);
     display: flex;
     flex-direction: row;
 }
