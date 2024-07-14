@@ -3,7 +3,7 @@
     padding:0;
 
 }
-
+/*----------------------------Header Section----------------------------------*/
 .header {
     min-height: 100vh;
     width: 100%;
@@ -13,10 +13,6 @@
     position: relative;
 }
 
-img {
-    padding-left: 4%;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -24,11 +20,8 @@ nav {
     padding: 1% 4%;
 }
 
-nav a{
-    color: #fff;
-    font-size: 12px;
-    text-decoration: none;
-
+nav img {
+    padding-left: 140px;
 }
 
 .nav-link {
@@ -39,8 +32,10 @@ nav a{
 }
 
 .nav-link ul li {
+    list-style-type: none;
     display: inline-block;
-    margin: 5px 20px;
+    margin: 8px, 12px
+    position: relative;
 }
 
 .nav-link ul li a {
@@ -50,6 +45,17 @@ nav a{
     list-style: none;
    
 }
+
+nav a{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 70px;
+    text-align: center;
+
+}
+
+
 
 .nav-link ul li a:hover {
     content: "";
@@ -67,8 +73,8 @@ nav a{
     color: white;
     position:absolute;
     top: 50%;
-    left: 30%;
-   transform: translate(-30%, -30%);
+    left: 50%;
+   transform: translate(-50%, -50%);
     text-align: center;
     
    
@@ -91,11 +97,13 @@ nav a{
     line-spacing: 1em;
 }
 
-.text-box button {
+.hero-btn {
+
+    display: inline-block;
     font-size: 14px;
     color: #fff;
     padding: 10px 40px;
-    border: 1px, solid #FF6565;
+    border: 1px, solid #fff;
     background-color: #FF6565;
     border-radius: 20px;
     margin-top: 20px;
@@ -103,7 +111,7 @@ nav a{
 }
 
 
-.text-box button:hover{
+.hero-btn:hover{
     cursor: pointer;
    transition: 0.6sec;
 }
@@ -115,34 +123,78 @@ nav> fa{
     display: none;
 }
 
-butto:hover{
+.btn:hover{
     
-   transform: translatey(50%);
+   transition: all;
+
 }
 
 @media screen(max-width: 660px) {
     .text-box h1 {
-        font-size: 32px;
+        font-size: 25px;
     }
 
     .text-box h2 {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .nav-link ul li {
         display: block;
+        align-items: start;
         
     }
 
     .nav-link{
         position: absolute;
+        background: none;
         height: 10vh;
         width: 200px;
         top: 0;
-        right: 0;
-        text-align: left;
+        left: 0;
+        text-align: right;
+        z-index: 1;
     }
 
 
     
 }
+
+.do-container {
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.do-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.do-container p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.do-sub-container{
+    display: flex;
+    display: inline-block
+    justify-content: space-around;
+    align-items: center;
+}
+
+.do-sub-container>div {
+    position: relative;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+  ;
