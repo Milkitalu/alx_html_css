@@ -203,3 +203,37 @@ nav> fa{
         flex-direction: column;
     }
 }    
+
+
+/* ----------------------------Our-result-section----------------------- */
+.result-row {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    gap: 20px;
+    background-image:url(images/Object.png);
+    color: #fff;
+}
+
+/* .result-raw > div p{
+    padding: 30px;
+} */
+
+.result-col {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+@media (max-width: 700px) {
+    .result-col {
+       
+        flex-direction: column;
+    }
+} 
