@@ -237,3 +237,54 @@ nav> fa{
         flex-direction: column;
     }
 } 
+
+/* -----------------------CONTACT-US-SECTION----------- */
+
+.contact-section {
+    padding: 40px 0;
+}
+
+.contact-section h1 {
+    text-align: center;
+    height: 10px;
+    margin:40px auto;
+    color: black;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+    display: block;
+    justify-content: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 0;
+    background: #fff;
+    outline: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+    border-bottom: 2px solid whitesmoke ;
+
+}
+
+.contact-form-btn {
+    display: inline-block;
+    justify-items: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 40px;
+    border: 1px, solid #fff;
+    background-color: #FF6565;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+
+}
